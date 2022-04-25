@@ -34,7 +34,7 @@
 		"coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
 	},
 	"dependencies": {
-		"combine-mq": "^0.7.0",
+		"combine-mq": "https://github.com/sapics/node-combine-mq",
 		"gulp-util": "~2.2.0",
 		"path": "^0.4.9",
 		"through2": "~0.6.0"
